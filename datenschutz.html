@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutz – Vermögen</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f5f5f7; --text: #1d1d1f; --muted: #6e6e73; --accent: #007aff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #1c1c1e; --text: #f5f5f7; --muted: #a1a1a6; --accent: #0a84ff; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+    h1 { font-size: 30px; margin: 0 0 8px; letter-spacing: -.02em; }
+    h2 { font-size: 18px; margin: 28px 0 6px; }
+    p, li { color: var(--muted); }
+    p { margin: 0 0 10px; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Datenschutzerklärung</h1>
+    <p>Stand: November 2026. Gilt für die App «Vermögen» unter Windows und Android.</p>
+
+    <h2>Kurz gesagt</h2>
+    <p>Die App hat keinen eigenen Server und kein Benutzerkonto beim Anbieter. Der Anbieter erhält keine Daten. Es gibt keine Werbung, keine Analyse und kein Tracking.</p>
+
+    <h2>Welche Google-Daten die App nutzt</h2>
+    <p>Die App nutzt Google OAuth und die Google Drive API mit dem Bereich <code>https://www.googleapis.com/auth/drive.file</code>. Damit kann sie nur Dateien lesen und ändern, die sie selbst angelegt hat. Andere Dateien im Google Drive sind für die App nicht zugänglich.</p>
+
+    <h2>Wofür die Daten verwendet werden</h2>
+    <p>Die App speichert die von der Person eingegebenen Vermögensdaten und einen allfälligen Chatverlauf in den Dateien <code>data.json</code> und <code>chat.json</code> im Ordner «Vermögen» in deren Google Drive. So bleiben PC und Handy auf demselben Stand.</p>
+
+    <h2>Speicherung auf dem Gerät</h2>
+    <p>Auf dem Gerät liegt eine Kopie des letzten Stands, damit die Daten auch ohne Internet lesbar sind. Die Google-Anmeldung und ein allfälliger Claude-API-Schlüssel werden verschlüsselt auf dem Gerät gespeichert.</p>
+
+    <h2>Weitergabe</h2>
+    <p>Google-Nutzerdaten werden nicht verkauft, nicht für Werbung verwendet und nicht an den Anbieter oder Dritte weitergegeben. Einzige Ausnahme ist die freiwillige Berater-Funktion: Nur wenn die Person sie mit einem eigenen API-Schlüssel aktiviert und eine Frage stellt, gehen ihre Vermögensdaten und die Frage direkt vom Gerät an Anthropic, den Anbieter von Claude. Es gelten dann die Bedingungen von <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>.</p>
+    <p>Die Nutzung von Daten aus Google-APIs hält sich an die <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, einschliesslich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+
+    <h2>Weitere Abrufe</h2>
+    <p>Für Kurse und Fondsdaten ruft die App öffentliche Seiten von Google Finance und iShares ab. Dabei werden keine Vermögensdaten übertragen.</p>
+
+    <h2>Löschen und Widerrufen</h2>
+    <p>Daten lassen sich jederzeit löschen, indem der Ordner «Vermögen» im Google Drive entfernt und die App deinstalliert wird. Der Zugriff lässt sich unter <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> widerrufen.</p>
+
+    <h2>Kontakt</h2>
+    <p>Fragen zum Datenschutz sind über die Support-Adresse auf dem Google-Zustimmungsbildschirm der App möglich.</p>
+
+    <p><a href="index.html">Zur Startseite</a></p>
+  </main>
+</body>
+</html>
